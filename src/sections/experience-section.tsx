@@ -1,9 +1,11 @@
 import Section from "../components/section";
+import logo from "../../public/assets/logo.png";
+import logo2 from "../../public/assets/logo2.png";
 
 export default function ExperienceSection() {
     const experience = [
         {
-            image: "/assets/logo.png",
+            image: logo,
             title: "Sr. Software engineer",
             company: "DeltaLabs",
             location: "Remote",
@@ -16,7 +18,7 @@ export default function ExperienceSection() {
             ],
         },
         {
-            image: "/assets/logo2.png",
+            image: logo2,
             title: "Full Stack developer",
             company: "Freelance / Self-Employed",
             location: "Remote",

@@ -1,4 +1,8 @@
 import Section from "../components/section";
+import aiPowered from "../../public/assets/ai-powered.jpeg";
+import stuffsus from "../../public/assets/Stuffsus-E-Commmerce.jpeg";
+import projectManagementTool from "../../public/assets/project-management-tool.jpeg";
+import dapprDashboard from "../../public/assets/dappr-dashboard.jpeg";
 
 export default function ProjectsSection() {
     const projects = [
@@ -7,7 +11,7 @@ export default function ProjectsSection() {
             title: "AI-Powered Task Management System",
             description:
                 "Intermediate-level full-stack app that uses AI suggestions for prioritizing and automating tasks. Built with React, Next.js, Node.js, Express, PostgreSQL, and Tailwind CSS.",
-            image: "/assets/ai-powered.jpeg",
+            image: aiPowered,
             tech: ["React.js", "Next.js", "Node.js", "Express.js", "PostgreSQL", "Tailwind CSS", "JavaScript"],
         },
         {
@@ -15,7 +19,7 @@ export default function ProjectsSection() {
             title: "E-Commerce Platform",
             description:
                 "Full-stack e-commerce platform with user authentication, product catalog, shopping cart, and payment integration. Built using Next.js, TypeScript, Node.js, Express, MySQL, and Tailwind CSS.",
-            image: "/assets/Stuffsus-E-Commmerce.jpeg",
+            image: stuffsus,
             tech: ["Next.js", "TypeScript", "Node.js", "Express.js", "MySQL", "Tailwind CSS", "JavaScript"],
         },
         {
@@ -23,7 +27,7 @@ export default function ProjectsSection() {
             title: "Project Management Tool",
             description:
                 "Team collaboration and task tracking app with Kanban boards, project analytics, and GraphQL API integration. Built with React, Ruby on Rails, PostgreSQL, and Tailwind CSS.",
-            image: "/assets/project-management-tool.jpeg",
+            image: projectManagementTool,
             tech: ["React.js", "Ruby on Rails", "GraphQL", "PostgreSQL", "Tailwind CSS", "JavaScript"],
         },
         {
@@ -31,7 +35,7 @@ export default function ProjectsSection() {
             title: "Dashboard Application",
             description:
                 "Dynamic dashboard displaying analytics and KPIs with charts, tables, and interactive components. Built using Next.js, TypeScript, React, GraphQL, and Tailwind CSS.",
-            image: "/assets/dappr-dashboard.jpeg",
+            image: dapprDashboard,
             tech: ["Next.js", "TypeScript", "React.js", "GraphQL", "Tailwind CSS", "JavaScript"],
         },
     ];

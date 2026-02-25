@@ -1,4 +1,5 @@
 import { ArrowRightIcon } from "lucide-react";
+import profileImg from "../../public/assets/shanif-sheikh.png";
 
 export default function HeroSection() {
     return (
@@ -33,7 +34,7 @@ export default function HeroSection() {
             </svg>
 
             <img
-                src="/assets/shanif-sheikh.png"
+                src={profileImg}
                 alt="Profile Image"
                 className="size-36 rounded-full"
                 width={144}
